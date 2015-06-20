@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><%include partials/page/head.ejs %> </head>
+  <body class="<%= classname %> ">
+  <%include partials/page/header.ejs %>	
+  <div class="container">
+  	
+   <h1><%= title %></h1>
+		<p>Skate ipsum dolor sit amet, wax hardware disaster trucks Tracker 720. Durometer slap maxwell ollie freestyle dude finger flip. Blind boneless heel flip mongo lipslide grind body varial. Skate key lipslide gap opposite footed backside kick-nose. Locals coping skate or die lip bail camel back. Invert tuna-flip stoked camel back nosebone skater. Switch bearings body varial S.K.A.T.E. invert death box finger flip. Fast plant lip rip grip pressure flip Stacy Peralta layback Japan air. Powerslide crooked grind steps pump gnarly kickflip.
+</p>
+<ul>
+	<% for(var i = 0; i < users.length; i++) {%>
+	<li><%= users[i] %></li>
+	<% } %>	
+</ul>
+
+  </div><!-- end container -->
+  <%include partials/page/footer.ejs %>
+	<%include partials/page/jsdefaults.ejs %>
+  </body>
+</html>
+
+
+
+
+
+
+	

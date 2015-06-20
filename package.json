@@ -1,0 +1,29 @@
+{
+  "name": "first-node-app",
+  "version": "1.0.0",
+  "description": "following along with ray via lynda",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahoeRobbo/nodeExpressSandbox.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "learning",
+    "lynda"
+  ],
+  "author": "Robert R Hallowell tahoeRobbo",
+  "license": " ",
+  "bugs": {
+    "url": "https://github.com/tahoeRobbo/nodeExpressSandbox/issues"
+  },
+  "homepage": "https://github.com/tahoeRobbo/nodeExpressSandbox#readme",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "^4.12.4"
+  }
+}
